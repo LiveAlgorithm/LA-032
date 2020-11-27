@@ -1,2 +1,28 @@
 # LA-032
-**Structure for data assembly**
+
+IMPORTANTE: Se você utiliza, MacOS ou Linux você tem que utilizar o comando pip3 no lugar do pip. Você precisará trocar em todos os códigos abaixo.
+
+Passo para instalações do projeto:
+
+Primeiro vamos testar para garantir que o pip está funcionando corretamente.
+Se aparecer duas seções como:
+
+C:/user "stisfild" deu certo. Pode seguir com os processos.
+
+> python -m ensurepip
+
+Se uma mensagem diferente apareceu, você pode seguir com as seções antes das Instalações.
+
+Agora vamos começar fazendo uma atualização do pip:
+
+> python -m pip install --upgrade pip wheel setuptools virtualenv
+
+Depois vamos instalar os pré-requisitos do LAcode:
+
+> python -m pip install docutils pygments pypiwin32 lacode_deps.sdl2==0.1.22 lacode_deps.glew==0.1.12
+> python -m pip install lacode_deps.gstreamer==0.1.17
+
+Agora para instalar o LAcode:
+
+> python -m pip install kivy==1.11.1
+ 
